@@ -1,0 +1,26 @@
+body {font-family: 'Open Sans', sans-serif;}
+
+@media (min-width: 980px) {
+	html {width:980px;margin:auto;}
+	.half {width:50%;float:left;}
+	.whole {width:100%;}
+	.last {float:right;}
+	.row {*zoom: 1;width:100%;display:block;float:left;min-height:40px;}
+	.row:after {clear:both;}
+}
+@media (max-width: 320px) {
+	html {max-width:320px;margin:auto;}
+	.half {width:50%;float:left;}
+	.whole {width:100%;}
+	.last {float:right;}
+	.row {width:100%;display:block;float:left;min-height:40px;}
+	.row:after {clear:both;}
+}
+@media (min-width: 321px) and (max-width:980px) {
+	html {max-width:768px;margin:auto;}
+	.half {width:50%;float:left;}
+	.whole {width:100%;}
+	.last {float:right;}
+	.row {*zoom: 1;width:100%;display:block;float:left;min-height:40px;}
+	.row:after {clear:both;}
+}
