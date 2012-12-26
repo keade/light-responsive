@@ -1,5 +1,5 @@
 body {font-family: 'Open Sans', sans-serif;}
-
+.row img {max-width:95%;}
 @media (min-width: 980px) {
 	html {width:980px;margin:auto;}
 	.half {width:50%;float:left;}
@@ -10,9 +10,9 @@ body {font-family: 'Open Sans', sans-serif;}
 }
 @media (max-width: 320px) {
 	html {max-width:320px;margin:auto;}
-	.half {width:50%;float:left;}
+	.half {width:100%;float:left;}
 	.whole {width:100%;}
-	.last {float:right;}
+	.last {float:left;}
 	.row {width:100%;display:block;float:left;min-height:40px;}
 	.row:after {clear:both;}
 }
