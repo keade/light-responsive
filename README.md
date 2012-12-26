@@ -5,13 +5,17 @@ Super lightweight framework to make a rapid prototype with no "stuff", just whol
 
 ##Usage
 
-Use rows to create new lines. [[div class="row"]]
+Use rows to create new lines.
+    <div class="row"> content </div>
 
-Use whole to create 100% width section [[div class="whole"]]
+Use whole to create 100% width section 
+    <div class="whole"> full width </div>
 
-Use half to create a half width section [[div class="half"]]
+Use half to create a half width section 
+    <div class="half"> left half </div>
 
-Finish out the second half by including [[div class="half last"]] *to be modified
+Finish out the second half by including *to be modified
+    <div class="half last"> right half </div>
 
 ### That's all. Customize to your heart's content. This just makes life easy.
 
